@@ -95,3 +95,5 @@ const butElement = colors.map(({ hex, label }) => {
 });
 console.log(butElement);
 bodyEl.append(...butElement);
+
+console.log('hello');
