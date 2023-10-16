@@ -3,7 +3,9 @@
 } */
 
 .button {
-  display: inline-block;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
   width: 64px;
   height: 64px;
   margin: 5px;
@@ -13,7 +15,8 @@
 }
 
 .imgStyle {
-  width: 320px;
+  width: 100%;
+  height: 600px;
 }
 
 .listStyle {
@@ -21,13 +24,26 @@
   display: flex;
   flex-direction: column;
   justify-content: center;
+  justify-items: center;
+  text-align: center;
   padding: 10px;
+  width: 320px;
 }
 .titleStyle {
   text-transform: uppercase;
 }
-.js-cat {
+.js-computer {
   display: grid;
-  grid-template-columns: repeat(3, 3fr);
+  grid-template-columns: repeat(5, 1fr);
+  gap: 10px;
+}
+.js-planshet {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 30px;
+}
+.js-mobile {
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
   gap: 30px;
 }

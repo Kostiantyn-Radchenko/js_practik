@@ -13,7 +13,7 @@ export default [
   {
     name: 'Sharlene Bush',
     email: 'sharlenebush@tubesys.com',
-    eyeColor: 'blue',
+    eyeColor: 'orange',
     friends: ['Briana Decker', 'Sharron Pace'],
     isActive: true,
     balance: 3821,
@@ -35,7 +35,7 @@ export default [
   {
     name: 'Elma Head',
     email: 'elmahead@omatom.com',
-    eyeColor: 'green',
+    eyeColor: 'teal',
     friends: ['Goldie Gentry', 'Aisha Tran'],
     isActive: true,
     balance: 2278,
@@ -46,7 +46,7 @@ export default [
   {
     name: 'Carey Barr',
     email: 'careybarr@nurali.com',
-    eyeColor: 'blue',
+    eyeColor: 'aqua',
     friends: ['Jordan Sampson', 'Eddie Strong'],
     isActive: true,
     balance: 3951,
@@ -68,7 +68,7 @@ export default [
   {
     name: 'Sheree Anthony',
     email: 'shereeanthony@kog.com',
-    eyeColor: 'brown',
+    eyeColor: 'gold',
     friends: ['Goldie Gentry', 'Briana Decker'],
     isActive: true,
     balance: 2764,
